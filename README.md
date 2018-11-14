@@ -33,6 +33,9 @@ you should print something like that:
 This output can change everyday, because it's ramdon.
 
 
+
+# Promises life cycle
+
 ![ninja](./_media/js-promise.png)
 
 
