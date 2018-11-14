@@ -1,7 +1,7 @@
 const assert = require('chai').assert
 const DogService = require('../src/PetHandler').DogService
 
-// INTEGRATION TESTS
+// INTEGRATION TESTS.. the url's
 
 describe('Testing PetHandler class', function(){
   this.timeout(10000);
@@ -16,6 +16,7 @@ describe('Testing PetHandler class', function(){
   ]
   it('DogService printDogs...', async() => {
     console.log('\nDogService: get all dogs with more than 4 vowels in their breed name... ')
+    console.log('\ntake into account everyday the list can change, so the test can fail. ')
     const DogService = new DogService()
     const matchedDogList = await DogService.getMatchedDogList()
     assert.isOk(matchedDogList.length > 0,'the matchedDogList is empty')
