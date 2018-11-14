@@ -1,0 +1,18 @@
+{
+  "name": "dogBreeds",
+  "version": "1.0.0",
+  "description": "get dog breeds and their images",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "amartinm7@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
